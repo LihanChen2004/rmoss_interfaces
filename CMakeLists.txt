@@ -20,6 +20,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/referee/RefereeCmd.msg"
   "msg/referee/GameStatus.msg"
   "msg/referee/RobotStatus.msg"
+  "msg/referee/RfidStatus.msg"
+  "msg/referee/RfidStatusArray.msg"
   "msg/Gimbal.msg"
   "msg/GimbalCmd.msg"
   "msg/ShootCmd.msg"
