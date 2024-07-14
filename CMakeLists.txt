@@ -22,6 +22,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/referee/RobotStatus.msg"
   "msg/referee/RfidStatus.msg"
   "msg/referee/RfidStatusArray.msg"
+  "msg/referee/ExchangeAmmon.msg"
   "msg/Gimbal.msg"
   "msg/GimbalCmd.msg"
   "msg/ShootCmd.msg"
@@ -32,6 +33,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GetCameraInfo.srv"
   "srv/GetTaskStatus.srv"
   "srv/ControlTask.srv"
+  "srv/ExchangeAmmon.srv"
 DEPENDENCIES
   builtin_interfaces
   std_msgs
